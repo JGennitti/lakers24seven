@@ -1,0 +1,418 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 500px) and (max-width: 999px) {
+
+/*****************************
+GENERAL
+*****************************/
+body {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background: #000000;
+}
+
+#wrapper {
+
+	max-width: 940px;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background: radial-gradient(black, #652AC4);
+    border-top: 1px solid #fdb826;
+	border-bottom: 2px solid #fdb826;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    border-left: 1px solid #fdb826;
+	border-right: 1px solid #fdb826;
+}
+
+#mobile_bg {
+	display: none;
+}
+
+#primary {
+	width: 60%;
+	height: 600px;
+	margin-left: 5%;
+	margin-right: 1%;
+	background: url('../img/basketball_bg.jpg') repeat;
+	border: 2px solid #ffffff;
+	float: left;
+
+}
+
+#primary ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#primary li {
+	text-align: center;
+	color: #000000;
+	border-bottom: 2px solid #652AC4;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 10px;
+
+}
+
+#primary li a {
+	color: #652AC4;
+}
+
+#primary li a:visited {
+	color: #652AC4;
+}
+
+#secondary {
+	width: 20%;
+	height: 600px;
+	margin-left: 1%;
+	margin-right: 5%;
+	float: right;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+/*****************************
+HEADING
+*****************************/
+header {
+	margin: 0 0 5px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(black, #652AC4);
+	border-bottom: 1px solid #fdb826;
+}
+#logo_wrap {
+	float: left;
+	width: 200px;
+	height: 100px;
+	
+	margin: 0 auto;
+}
+
+#logo {
+	width: 200px;
+	height: 100px;
+}
+
+
+/*****************************
+NAVIGATION
+*****************************/
+
+nav  {
+	text-align: right;
+	padding: 10px 0;
+	margin: 0;
+	line-height: 148px;
+}
+
+nav ul {
+
+	list-style: none;
+	margin: 0 5px;
+	padding: 0;
+
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+
+	font-weight: 400;
+	padding: 5px 5px;
+	color: #fff;
+	transition: background-color .40s ease-in;
+	background-color: #652AC4;
+	border-left: 1px solid #fdb826;
+	border-right: 1px solid#fdb826;
+	border-top: 1px solid #fdb826;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+
+
+}
+nav a:hover {
+	background-color: #fdb826;
+	color: #652AC4;
+}
+
+/*****************************
+TEAM SALARY PAGE
+*****************************/
+#table-wrapper {
+
+	max-width: 700px;
+	height:auto;
+	margin: 0 auto;
+	margin-top: 10px;
+	background: radial-gradient(black, #652AC4);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top: 1px solid #fdb826;
+	border-bottom: 2px solid #fdb826;
+	border-left: 1px solid #fdb826;
+	border-right: 1px solid #fdb826;
+}
+#main-payroll {
+	width: 80%;
+	margin: 40px auto;
+	background: #dddddd;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	border: 2px solid #fdb826;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #222222;
+}
+
+h1#payroll-header {
+	color: #652AC4;
+	text-shadow: 1px 1px #000000;
+}
+
+#salary-header-wrap {
+	width: 100%;
+}
+
+#color-key-wrap {
+	width: 100%;
+}
+
+h4#color-key {
+	color: #000;
+	margin: 0 auto;
+	width: 600px;
+	background: #fff;
+	margin: 0 auto;
+	border: 2px solid #fdb826;
+	padding-left: 60px;
+}
+
+h1#salary-header { 
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+}
+
+h3 { display: inline;}
+
+span#under { color: green; font-weight: bold;}
+
+/* payroll table */
+
+#table-wrap {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 0.80em;
+}
+
+#salary-header {
+	color: #fdb826;
+}
+
+table.team-salary {
+	width: 60%;
+	margin: 30px auto;
+	
+}
+
+table.team-salary th {
+	padding: 5px;
+	background: #fdb826;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+
+table.team-salary td {
+	background: #fff;
+	padding: 3px;
+	text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/*****************************
+SECTION
+*****************************/
+
+ul#mobile_nav {
+	display: none;
+}
+
+h1#lakers_header {
+	margin: 10px;
+	padding-top: 15px;	
+	padding-left: 32px;
+	color: #fdb826;
+	text-shadow: 2px 2px #000000;
+}
+
+
+/*****************************
+FOOTER
+*****************************/
+
+footer {
+	font-size: 0.75em;
+	max-width: 100%;
+	height: 100px;
+	text-align: center;
+	clear: both;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	color: #fff;
+	background: linear-gradient(black, #652AC4);
+	border-bottom: 1px solid #fdb826;
+	border-left: 1px solid #fdb826;
+	border-right: 1px solid #fdb826;
+}
+
+#footer_wrap_salary {
+	width: 100%;
+}
+
+#salary_footer {
+	font-size: 0.75em;
+	margin: 0 auto;
+	max-width: 700px;
+	height: 100px;
+	text-align: center;
+	clear: both;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	color: #fff;
+	background: linear-gradient(black, #652AC4);
+	border-bottom: 1px solid #fdb826;
+	border-left: 1px solid #fdb826;
+	border-right: 1px solid #fdb826;
+}
+
+p#tweet {
+	margin: 0px;
+}
+
+p#footer_title {
+	margin: 0;
+	color: #ffffff;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	padding-top: 15px;
+}
+
+p#footer_title {
+	padding-top: 5px;
+}
+
+p#footer_disclaimer {
+	margin: 0;
+	padding: 0;
+}
+
+/*****************************
+CONTACT PAGE
+*****************************/
+
+h1#contact_header {
+	text-align: center;
+	padding-top: 15px;
+	color: #fdb826;
+	text-shadow: 2px 2px #000;
+}
+
+section#contact_form {
+	padding-top: 25px;
+}
+
+form {
+	display: table;
+	width: 400px;
+	color: #ffffff;
+}
+
+#feedback_wrap {
+	width: 100%;
+}
+
+p#feedback {
+	width: 300px;
+	margin: auto;
+	padding-left: 20px;
+	color: #ffffff;
+}
+
+p#feedbackError {
+	width: 300px;
+	margin: auto;
+	padding-left: 100px;
+	color: red;
+}
+
+span#nameError {
+	display: table-cell;
+	color: red;
+}
+
+span#nameBlankError {
+	display: table-cell;
+	color: red;
+}
+
+span#emailError {
+	display: table-cell;
+	color: red;
+}
+
+span#messageError {
+	display: table-cell;
+	color: red;
+}
+
+
+label { 
+	display: table-cell; 
+	text-shadow: 2px 2px #000000;
+	padding-bottom: 5px;
+}
+
+input { display: table-cell; }
+
+form ul {
+	list-style-type: none;
+}
+
+form ul li {
+	margin: 15px 0;
+}
+
+textarea {
+	margin-top: 15px;
+	resize: none;
+}
+
+/* end of @media queries */
+}
+

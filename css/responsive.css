@@ -1,0 +1,141 @@
+@media screen and (min-width: 233px) and (max-width: 500px) {
+
+/*****************************
+GENERAL
+*****************************/
+body {
+	width: 100%;
+}
+
+#mobile_wrap {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+/*****************************
+MOBILE HEADER
+*****************************/
+header {
+	width: 100%;
+	margin: 0;
+	background: radial-gradient(#652AC4, #000000);
+	border-bottom: 1px solid #000000;
+}
+
+header #logo_wrap {
+	float: none;
+	width: 200px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+#logo {
+	margin: 0 auto;
+	width: 200px;
+	height: 100px;
+}
+#wrapper {
+	display: none;
+}
+
+/*****************************
+MOBILE NAVIGATION
+*****************************/
+
+nav {
+	display: none;
+}
+
+
+
+ul#mobile_nav {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #000000;
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul#mobile_nav {
+	list-style: none;
+}
+
+ul#mobile_nav li {
+	background: linear-gradient(#fdb826, yellow);
+	border-bottom: 1px solid #000000;
+	font-size: 30px;
+	text-align: center;
+}
+
+ul#mobile_nav li a {
+	display: block;
+	text-decoration: none;
+	color: #5900B2;
+
+}
+
+#mobile_bg {
+	max-width: 100%;
+	height: 200px;
+	margin-bottom: 0;
+	
+}
+
+img#staples {
+	width: 100%;
+	float: left;
+	margin-bottom: 0px;
+}
+
+#footer_wrap {
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+	text-align: center;
+	color: #fff;
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #fdb826;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-top: 2px solid #fdb826;
+	background: radial-gradient(#652AC4, #000000);
+
+}
+
+p#tweet img {
+	margin: 0;
+	padding-top: 5px;
+	width: 20px;
+	height: 20px;
+}
+
+p#footer_title {
+	font-size: 0.75em;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+.social_icon {
+	display: none;
+
+}
+
+p#footer_disclaimer {
+	display: none;
+}
+
+/* End of @media queries */
+}
+
